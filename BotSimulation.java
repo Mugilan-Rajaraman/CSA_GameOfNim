@@ -33,5 +33,6 @@ public class BotSimulation {
         String winner = (turn % 2 == 0) ? "SmartBot2" : "SmartBot1";
         
         System.out.println("\n" + winner + " wins!");
+        System.out.println("With smart play, certain pile sizes favor the first player, while others favor the second player. The key losing positions are:2, 5, 8, 11, 14, 17, 20, 23, 26, 29, 32, 35, 38, 41, 44, 47, 50");
     }
 }
